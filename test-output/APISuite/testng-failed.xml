@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APISuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="API automation(failed)">
+    <classes>
+      <class name="fis.api.ApiAutomationTest">
+        <methods>
+          <include name="ApiGetTest"/>
+          <include name="apiSetup"/>
+        </methods>
+      </class> <!-- fis.api.ApiAutomationTest -->
+    </classes>
+  </test> <!-- API automation(failed) -->
+</suite> <!-- Failed suite [APISuite] -->
