@@ -1,0 +1,3 @@
+fis\api\ApiAutomationTest.class
+fis\ecom\bdd\runner\JunitRunner.class
+fis\ecom\bdd\runner\TestNGTestRunner.class
