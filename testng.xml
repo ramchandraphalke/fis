@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name = "WebSuite">
+	<test thread-count="4" name="Ebay Add to cart">
+		<classes>
+			<class name="fis.ecom.bdd.runner.TestNGTestRunner" />
+		</classes>
+	</test>
+</suite>
